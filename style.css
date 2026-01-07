@@ -75,9 +75,9 @@
   color: #151414;
   margin-bottom: 55px;
 }
-.item{
-    display: flex;
-    justify-content: space-between;
+.item {
+  display: flex;
+  justify-content: space-between;
 }
 .item h3 {
   font-size: 30px;
@@ -89,7 +89,32 @@
   font-weight: 400;
   color: #737272;
 }
-.item img{
-    max-width: 92px;
+.item img {
+  max-width: 92px;
 }
-
+.mindset-section {
+  margin: 130px 230px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #f15b22, transparent),
+    url(/images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  padding: 60px 600px 60px 64px;
+}
+.mindset-section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.mindset-section button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f15b22;
+  border-radius: 5px;
+  padding: 20px 36px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
