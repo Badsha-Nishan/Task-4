@@ -108,7 +108,7 @@
   color: #fff;
   margin-bottom: 24px;
 }
-.mindset-section button {
+.btn-2 {
   font-size: 20px;
   font-weight: 600;
   color: #f15b22;
@@ -117,4 +117,41 @@
   background-color: #fff;
   border: none;
   cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #151414;
+  max-width: 1600px;
+  min-height: 577px;
+  padding: 130px 230px;
+}
+.future-content h2 {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.future-content p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  max-width: 485px;
+}
+.icons img {
+  margin-left: 17px;
+}
+.subscribe h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+.subscribe input[type="text"]{
+    color: #F3F3F3;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 22px 158px 21px 21px;
 }
